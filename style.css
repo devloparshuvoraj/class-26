@@ -1,0 +1,176 @@
+h1, h2, h3, h4, h5, h6, p, span, a, strong, body, ul, li{
+    font-family: 'Roboto', sans-serif;
+}
+.contact-section{
+
+}
+.contact-section span{
+
+}
+.section{
+    font-size: 53px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.section::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 13%;
+    top: 191px;
+    left: 6px;
+    background-color: #2051e9;
+}
+.contact-section p{
+    color: #6a6a60;
+    width: 75%;
+}
+.img-tag{
+   transition: .5s;
+}
+.img-tag img{
+    width: 100%;
+}
+.img-contact-section .img-tag{
+    border: 1px solid hsla(60, 5%, 40%, 0.753);
+    
+}
+.shuvo2 img {
+    height: 132px;
+}
+.shuvo img {
+    height: 132px;
+}
+
+.img-tag:hover{
+    background-color: #f6f9fc;
+}
+
+/* Bloge section */
+.blog-tag {
+    font-size: 37px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.blog-tag::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 7%;
+    top: 50px;
+    left: 389px;
+    background-color: #2051e9;
+}
+img{
+    max-width: 100%;
+}
+
+.photo {
+    position: relative;
+}
+.photo::before{
+    content: "BY TIM NORTON";
+    position: absolute;
+    background-color: #2051e9;
+    height: 38px;
+    width: 186px;
+    top: 212px;
+    left: 175px;
+    text-align: right;
+    line-height: 2.5;
+    border-radius: 20px;
+    color: #fff;
+    padding-right: 11px;
+
+}
+.button-img{}
+.button-img img{
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: -63px;
+    left: 181px;
+}
+
+.photo-text{}
+.photo-text h3 {
+   
+}
+.photo-text p {
+    color: #6a6a6a;
+}
+
+
+
+/* Footer section */
+.footer-item{
+    background: #081828;
+}
+.logu-footer{}
+.logu-footer img{
+    height: 100%;
+    width: 44%;
+}
+.logu-footer p{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.logu-footer ul{
+    display: flex;
+}
+.logu-footer ul li{
+    list-style: none;
+}
+.logu-footer ul li a{
+    padding: 10px
+}
+.logu-footer ul li a i{
+    color: #fff;
+}
+
+
+/* footer text */
+.single-footer-wide h3::before{
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 3px;
+    top: 0;
+    left: -10px;
+    background-color: #2051e9;
+}
+.single-footer-wide h3{
+     font-size: 20px;
+     color: #ffffff;
+     position: relative;
+     right: -33px;
+}
+.single-footer-wide ul li{
+    list-style: none;
+}
+.single-footer-wide ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2;
+}
+.footer-me{
+    background-color: #081828;
+    
+    
+}
+.footer-me p{
+    color: #fff;
+    
+}
+.footer-last{
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
